@@ -23,8 +23,7 @@
 ---
 
 @title[Bottleneck's factors]
-## Bottleneck's factors
-@size[0.75em](
+### Bottleneck's factors
 1. OS
 1. Software
 1. Hardware
@@ -33,7 +32,7 @@
 1. Database
 1. Network
 1. Limitations
-1. Bla bla bla ...)
+1. Bla bla bla ...
 
 ```
 Bottlenecks ≠ one piece of shit
@@ -63,19 +62,16 @@ Solving a single point does not mean that the problem is gone.
 @title[Progamming]
 
 ### Progamming
-@size[0.6em](
-* Algorithms and data structures
-    * BigO
+* Algorithms and data structures (BigO)
 * Strategies
     * Query & NonQuery (Pagging your queries, LIMIT)
     * Roundtrip
     * Connection pooling
 * Language limitations
-    * Loop
-    * Recursive
+    * Loop & Recursive
     * Structural & Unstructured
     * String concatenation
-* Build & Compile level)
+* Build & Compile level
 
 ---
 
@@ -104,21 +100,19 @@ printf("sum: %d\n", sum);
 @title[Database 1]
 
 ### Database 1
-@size[0.75em](
 * Normalization
 * Redundancy
 * Bad Referential Integrity (1-1, 1-M, M-M)
 * Not Taking Advantage of DB Engine Features { Views, Indexes, Stored procedures, Constraints, Triggers }
 * No limitations on table or column name size
 * One table to hold all domain values
-* Lack of testing)
+* Lack of testing
 
 ---
 
 @title[Database 2]
 
 ### Database 2
-@size[0.75em](
 * Poor design
     * Fixed length of data
     * Not use datatypes based on the nature of data
@@ -187,12 +181,11 @@ is a digital database based on the relational model of data
 ### Non-Relational database (NoSQL)
 Originally referring to **non SQL** or **non relational**
 
-@size[0.75em](
-**Advantages**
-* Large volumes of structured, semi-structured, and unstructured data
+* **Advantages**
+> Large volumes of structured, semi-structured, and unstructured data
 
-**Disadvantages**
-* Less support since NoSQL databases are usually open-source)
+* **Disadvantages**
+> Less support since NoSQL databases are usually open-source
 
 ---
 
