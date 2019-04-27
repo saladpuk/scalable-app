@@ -64,7 +64,7 @@ Solving a single point does not mean that the problem is gone.
 ### Progamming
 * Algorithms and data structures (BigO)
 * Strategies
-    * Query & NonQuery (Pagging your queries, LIMIT)
+    * Query & NonQuery (Pagging, LIMIT)
     * Roundtrip
     * Connection pooling
 * Language limitations
