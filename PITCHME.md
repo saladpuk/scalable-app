@@ -2,6 +2,12 @@
 
 ## Scalable Application
 
+---
+
+@title[Goal]
+
+### Scalable Application Goal
+
 @size[0.75em](@fa[quote-left] Core concept is **Finding bottlenecks in your system** @fa[quote-right])
 ![img](/images/bottleneck.PNG)
 
@@ -47,7 +53,7 @@ Solving a single point does not mean that the problem is gone.
 
 @title[Bottleneck's factors - Part 2]
 
-## Bottleneck's factors - Part 2
+## Bottleneck's factors 2
 1. Programming
 1. Database
 1. Limitations
@@ -56,8 +62,8 @@ Solving a single point does not mean that the problem is gone.
 
 @title[Progamming]
 
-## Progamming
-@size[0.75em](
+### Progamming
+@size[0.6em](
 * Algorithms and data structures
     * BigO
 * Strategies
@@ -95,34 +101,28 @@ printf("sum: %d\n", sum);
 
 ---
 
-@title[Progamming (example 2)]
+@title[Database 1]
 
-### Progamming (example)
-The summation of all integers from 1 to N
-
-Good code
-```
-int sum = N * (1 + N) / 2;
-printf("sum: %d\n", sum);
-```
-
----
-
-@title[Database]
-
-### Database
+### Database 1
 @size[0.75em](
 * Normalization
 * Redundancy
 * Bad Referential Integrity (1-1, 1-M, M-M)
 * Not Taking Advantage of DB Engine Features { Views, Indexes, Stored procedures, Constraints, Triggers }
 * No limitations on table or column name size
+* One table to hold all domain values
+* Lack of testing)
+
+---
+
+@title[Database 2]
+
+### Database 2
+@size[0.75em](
 * Poor design
     * Fixed length of data
     * Not use datatypes based on the nature of data
     * Naming standards
-* One table to hold all domain values
-* Lack of testing)
 
 ---
 
