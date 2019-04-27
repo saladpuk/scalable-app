@@ -3,10 +3,14 @@
 Core concept is **Finding bottlenecks in your system**
 ![img](/images/bottleneck.PNG)
 
+---
+
 # Bottleneck
 In software engineering, a bottleneck occurs when the capacity of an application or a computer system is severely limited by a single component, like the neck of a bottle slowing down the overall water flow. 
 
 ![img](/images/bottleneck_visualization.PNG)
+
+---
 
 # Bottleneck's Factors
 1. OS
@@ -23,16 +27,22 @@ In software engineering, a bottleneck occurs when the capacity of an application
 Bottlenecks ≠ one piece of shit
 ```
 
+---
+
 # Bottleneck
 ![img](/images/bottleneck_visualization.PNG)
 ```
 Solving a single point does not mean that the problem is gone.
 ```
 
-# Bottleneck's Factors - P2
+---
+
+# Bottleneck's Factors - Part 2
 1. Programming
 1. Database
 1. Limitations
+
+---
 
 # Progamming
 * Algorithms and data structures
@@ -47,6 +57,8 @@ Solving a single point does not mean that the problem is gone.
     * Structural & Unstructured
     * String concatenation
 * Build & Compile level
+
+---
 
 # Progamming (example)
 The summation of all integers from 1 to N
@@ -66,6 +78,8 @@ int sum = N * (1 + N) / 2;
 printf("sum: %d\n", sum);
 ```
 
+---
+
 # Database
 * Normalization
 * Redundancy
@@ -79,6 +93,8 @@ printf("sum: %d\n", sum);
 * One table to hold all domain values
 * Lack of testing
 
+---
+
 # Database (example)
 * Long & short running queries
 * Write-write conflicts(Recursion tables)
@@ -87,11 +103,15 @@ printf("sum: %d\n", sum);
 the number of queries you can handle at a time
 ```
 
+---
+
 # Limitations
 * Programming language (specialist like R, scalar)
 * Database size
 * Not support unstructured data
 * Delete records (Hole & Indexes)
+
+---
 
 # Database techniques
 * Design guideline & Best practices
@@ -103,16 +123,23 @@ the number of queries you can handle at a time
 * Sharding - Splitting one dataset up across multiple hosts
 * Moving some functionality to other types of DBs
 
+---
+
 # Database types
 * Relational database
 * Non-Relational database (NoSQL)
+
+---
 
 # Relational database
 is a digital database based on the relational model of data
 ![img](/images/relational_db.png)
 
+
 **Disadvantages**
 * Cannot store complex or very large images
+
+---
 
 # Non-Relational database (NoSQL)
 Originally referring to **non SQL** or **non relational**
@@ -123,11 +150,15 @@ Originally referring to **non SQL** or **non relational**
 **Disadvantages**
 * Less support since NoSQL databases are usually open-source
 
+---
+
 # NoSQL family
 * Graph ([neo4J](https://console.neo4j.org), OrientDB, Titan)
 * Key-Value store ([Redis](https://try.redis.io), Amazon DynamoDB)
 * Document database ([MongoDB](https://www.mplay.run/mongodb-online-terminal), Couchbase)
 * Column store (Apache HBase, Cassandra)
+
+---
 
 # Summary
 * Finding bottlenecks in your system
