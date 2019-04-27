@@ -75,7 +75,7 @@ Solving a single point does not mean that the problem is gone.
 
 ---
 
-@title[Progamming (example 1)]
+@title[Progamming (example)]
 
 ### Progamming (example)
 The summation of all integers from 1 to N
@@ -83,8 +83,7 @@ The summation of all integers from 1 to N
 Bad code
 ```
 int i, sum = 0;
-for (i = 1; i <= N; ++i)
-{
+for (i = 1; i <= N; ++i){
     sum += i;
 }
 printf("sum: %d\n", sum);
