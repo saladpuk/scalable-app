@@ -2,19 +2,22 @@
 
 ## Scalable Application
 
-@size[0.75em](@fa[quote-left]Core concept is **Finding bottlenecks in your system**@fa[quote-right])
+@size[0.75em](@fa[quote-left] Core concept is **Finding bottlenecks in your system** @fa[quote-right])
 ![img](/images/bottleneck.PNG)
 
 ---
 
-# Bottleneck
+@title[What's buttleneck]
+
+## What's buttleneck
 In software engineering, a bottleneck occurs when the capacity of an application or a computer system is severely limited by a single component, like the neck of a bottle slowing down the overall water flow. 
 
 ![img](/images/bottleneck_visualization.PNG)
 
 ---
 
-# Bottleneck's Factors
+@title[Bottleneck's factors]
+## Bottleneck's factors
 1. OS
 1. Software
 1. Hardware
@@ -31,7 +34,9 @@ Bottlenecks ≠ one piece of shit
 
 ---
 
-# Bottleneck
+@title[Bottleneck summary]
+
+## Bottleneck summary
 ![img](/images/bottleneck_visualization.PNG)
 ```
 Solving a single point does not mean that the problem is gone.
@@ -39,14 +44,18 @@ Solving a single point does not mean that the problem is gone.
 
 ---
 
-# Bottleneck's Factors - Part 2
+@title[Bottleneck's factors - Part 2]
+
+## Bottleneck's factors - Part 2
 1. Programming
 1. Database
 1. Limitations
 
 ---
 
-# Progamming
+@title[Progamming]
+
+## Progamming
 * Algorithms and data structures
     * BigO
 * Strategies
@@ -62,7 +71,9 @@ Solving a single point does not mean that the problem is gone.
 
 ---
 
-# Progamming (example)
+@title[Progamming (example)]
+
+## Progamming (example)
 The summation of all integers from 1 to N
 
 Bad code
@@ -82,7 +93,9 @@ printf("sum: %d\n", sum);
 
 ---
 
-# Database
+@title[Database]
+
+## Database
 * Normalization
 * Redundancy
 * Bad Referential Integrity (1-1, 1-M, M-M)
@@ -97,7 +110,9 @@ printf("sum: %d\n", sum);
 
 ---
 
-# Database (example)
+@title[Database (example)]
+
+## Database (example)
 * Long & short running queries
 * Write-write conflicts(Recursion tables)
 * Large joins taking up memory
@@ -107,7 +122,9 @@ the number of queries you can handle at a time
 
 ---
 
-# Limitations
+@title[Limitations]
+
+## Limitations
 * Programming language (specialist like R, scalar)
 * Database size
 * Not support unstructured data
@@ -115,7 +132,9 @@ the number of queries you can handle at a time
 
 ---
 
-# Database techniques
+@title[Database techniques]
+
+## Database techniques
 * Design guideline & Best practices
     * [InnoDB Tables](https://dev.mysql.com/doc/refman/8.0/en/innodb-best-practices.html)
 * Caching
@@ -127,13 +146,17 @@ the number of queries you can handle at a time
 
 ---
 
-# Database types
+@title[Database types]
+
+## Database types
 * Relational database
 * Non-Relational database (NoSQL)
 
 ---
 
-# Relational database
+@title[Relational database]
+
+## Relational database
 is a digital database based on the relational model of data
 ![img](/images/relational_db.png)
 
@@ -143,7 +166,9 @@ is a digital database based on the relational model of data
 
 ---
 
-# Non-Relational database (NoSQL)
+@title[Non-Relational database (NoSQL)]
+
+## Non-Relational database (NoSQL)
 Originally referring to **non SQL** or **non relational**
 
 **Advantages**
@@ -154,7 +179,9 @@ Originally referring to **non SQL** or **non relational**
 
 ---
 
-# NoSQL family
+@title[NoSQL family]
+
+## NoSQL family
 * Graph ([neo4J](https://console.neo4j.org), OrientDB, Titan)
 * Key-Value store ([Redis](https://try.redis.io), Amazon DynamoDB)
 * Document database ([MongoDB](https://www.mplay.run/mongodb-online-terminal), Couchbase)
@@ -162,7 +189,9 @@ Originally referring to **non SQL** or **non relational**
 
 ---
 
-# Summary
+@title[Summary]
+
+## Summary
 * Finding bottlenecks in your system
 * Bottlenecks ≠ one piece of shit
 * Design level (Software, Database, Environments)
