@@ -1,6 +1,8 @@
-# Scalable Application
+@title[Scalable Application]
 
-Core concept is **Finding bottlenecks in your system**
+## Scalable Application
+
+@size[0.75em](@fa[quote-left]Core concept is **Finding bottlenecks in your system**@fa[quote-right])
 ![img](/images/bottleneck.PNG)
 
 ---
