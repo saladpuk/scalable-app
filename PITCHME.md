@@ -10,7 +10,7 @@
 @title[What's buttleneck]
 
 ## What's buttleneck
-In software engineering, a bottleneck occurs when the capacity of an application or a computer system is severely limited by a single component, like the neck of a bottle slowing down the overall water flow. 
+@size[0.75em](In software engineering, a bottleneck occurs when the capacity of an application or a computer system is severely limited by a single component, like the neck of a bottle slowing down the overall water flow.)
 
 ![img](/images/bottleneck_visualization.PNG)
 
@@ -18,6 +18,7 @@ In software engineering, a bottleneck occurs when the capacity of an application
 
 @title[Bottleneck's factors]
 ## Bottleneck's factors
+@size[0.75em](
 1. OS
 1. Software
 1. Hardware
@@ -26,7 +27,7 @@ In software engineering, a bottleneck occurs when the capacity of an application
 1. Database
 1. Network
 1. Limitations
-1. Bla bla bla ...
+1. Bla bla bla ...)
 
 ```
 Bottlenecks ≠ one piece of shit
@@ -56,6 +57,7 @@ Solving a single point does not mean that the problem is gone.
 @title[Progamming]
 
 ## Progamming
+@size[0.75em](
 * Algorithms and data structures
     * BigO
 * Strategies
@@ -67,13 +69,13 @@ Solving a single point does not mean that the problem is gone.
     * Recursive
     * Structural & Unstructured
     * String concatenation
-* Build & Compile level
+* Build & Compile level)
 
 ---
 
-@title[Progamming (example)]
+@title[Progamming (example 1)]
 
-## Progamming (example)
+### Progamming (example)
 The summation of all integers from 1 to N
 
 Bad code
@@ -93,9 +95,23 @@ printf("sum: %d\n", sum);
 
 ---
 
+@title[Progamming (example 2)]
+
+### Progamming (example)
+The summation of all integers from 1 to N
+
+Good code
+```
+int sum = N * (1 + N) / 2;
+printf("sum: %d\n", sum);
+```
+
+---
+
 @title[Database]
 
-## Database
+### Database
+@size[0.75em](
 * Normalization
 * Redundancy
 * Bad Referential Integrity (1-1, 1-M, M-M)
@@ -106,7 +122,7 @@ printf("sum: %d\n", sum);
     * Not use datatypes based on the nature of data
     * Naming standards
 * One table to hold all domain values
-* Lack of testing
+* Lack of testing)
 
 ---
 
@@ -168,14 +184,15 @@ is a digital database based on the relational model of data
 
 @title[Non-Relational database (NoSQL)]
 
-## Non-Relational database (NoSQL)
+### Non-Relational database (NoSQL)
 Originally referring to **non SQL** or **non relational**
 
+@size[0.75em](
 **Advantages**
 * Large volumes of structured, semi-structured, and unstructured data
 
 **Disadvantages**
-* Less support since NoSQL databases are usually open-source
+* Less support since NoSQL databases are usually open-source)
 
 ---
 
